@@ -1177,7 +1177,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nMEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nMEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1186,7 +1186,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nMEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']\n# Default primary key field type",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nMEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']\n# STATICFILES_DIRS = [ ",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1195,7 +1195,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nMEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nMEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']\n# STATICFILES_DIRS = [ \n#      os.path.join(BASE_DIR, 'static'), ",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1204,7 +1204,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': (",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR/'media'\nMEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']\n# STATICFILES_DIRS = [ \n#      os.path.join(BASE_DIR, 'static'), \n#  ] \n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1213,7 +1213,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': (\n        'django_filters.rest_framework.DjangoFilterBackend',",
+        "peekOfCode": "MEDIA_URL = '/media/'\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']\n# STATICFILES_DIRS = [ \n#      os.path.join(BASE_DIR, 'static'), \n#  ] \n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1222,7 +1222,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': (\n        'django_filters.rest_framework.DjangoFilterBackend',\n        # ...",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']\n# STATICFILES_DIRS = [ \n#      os.path.join(BASE_DIR, 'static'), \n#  ] \n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1231,7 +1231,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILS_DIRS =[BASE_DIR/'static/']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': (\n        'django_filters.rest_framework.DjangoFilterBackend',\n        # ...\n    ),",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR,'static')\nSTATICFILES_DIRS =[BASE_DIR/'static/']\n# STATICFILES_DIRS = [ \n#      os.path.join(BASE_DIR, 'static'), \n#  ] \n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': (",
         "detail": "Backend.settings",
         "documentation": {}
     },
