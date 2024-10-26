@@ -89,7 +89,7 @@ class UserRegister(viewsets.ModelViewSet):
             token = RefreshToken.for_user(user)
 
             response_data = {
-                'refresh': str(token),
+                # 'refresh': str(token),
                 'access': str(token.access_token),
                 'message': _('User created successfully.'),
                 # 'role': user.role,
@@ -147,7 +147,7 @@ class UserLogin(APIView):
         token = RefreshToken.for_user(user)
 
         response_data = {
-            'refresh': str(token),
+            # 'refresh': str(token),
             'access': str(token.access_token),
             'message': _('User logged in successfully.'),
             # 'role': user.role,

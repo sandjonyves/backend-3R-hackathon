@@ -9,6 +9,14 @@
         "documentation": {}
     },
     {
+        "label": "getenv",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "get_asgi_application",
         "importPath": "django.core.asgi",
         "description": "django.core.asgi",
@@ -22,6 +30,31 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
         "documentation": {}
     },
     {
@@ -313,156 +346,27 @@
         "documentation": {}
     },
     {
-        "label": "django.utils.timezone",
-        "kind": 6,
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "detail": "django.utils.timezone",
+        "detail": "django.apps",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.apps",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -490,46 +394,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -551,38 +415,6 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -1035,15 +867,6 @@
         "documentation": {}
     },
     {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
-        "documentation": {}
-    },
-    {
         "label": "Admin",
         "importPath": "account.models",
         "description": "account.models",
@@ -1210,7 +1033,16 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-a5!909yl3=n4ws5$6$e1%)z8%%_r8!ig!l6%v7-f-6*_)pucq='\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n    '*',\n]",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nenv = environ.Env()\nenviron.Env.read_env(BASE_DIR/'.env')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-a5!909yl3=n4ws5$6$e1%)z8%%_r8!ig!l6%v7-f-6*_)pucq='\n# SECURITY WARNING: don't run with debug turned on in production!\nload_dotenv(BASE_DIR / '.env')\n# Remplacer la section DATABASES dans settings.py avec cette configuration",
+        "detail": "Backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "Backend.settings",
+        "description": "Backend.settings",
+        "peekOfCode": "env = environ.Env()\nenviron.Env.read_env(BASE_DIR/'.env')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-a5!909yl3=n4ws5$6$e1%)z8%%_r8!ig!l6%v7-f-6*_)pucq='\n# SECURITY WARNING: don't run with debug turned on in production!\nload_dotenv(BASE_DIR / '.env')\n# Remplacer la section DATABASES dans settings.py avec cette configuration\ntmpPostgres = urlparse(env(\"DATABASE_URL\"))",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1219,7 +1051,16 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-a5!909yl3=n4ws5$6$e1%)z8%%_r8!ig!l6%v7-f-6*_)pucq='\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n    '*',\n]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOWED_ORIGINS = [\n  'http://localhost:5174',\n    # Autres domaines autorisés si nécessaire",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-a5!909yl3=n4ws5$6$e1%)z8%%_r8!ig!l6%v7-f-6*_)pucq='\n# SECURITY WARNING: don't run with debug turned on in production!\nload_dotenv(BASE_DIR / '.env')\n# Remplacer la section DATABASES dans settings.py avec cette configuration\ntmpPostgres = urlparse(env(\"DATABASE_URL\"))\nDEBUG = True\nALLOWED_HOSTS = [\n    '*',\n]\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "tmpPostgres",
+        "kind": 5,
+        "importPath": "Backend.settings",
+        "description": "Backend.settings",
+        "peekOfCode": "tmpPostgres = urlparse(env(\"DATABASE_URL\"))\nDEBUG = True\nALLOWED_HOSTS = [\n    '*',\n]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOWED_ORIGINS = [\n  'http://localhost:5174',\n    # Autres domaines autorisés si nécessaire\n]",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1300,7 +1141,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'Backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'Backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\n# Add these at the top of your settings.py",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1309,7 +1150,7 @@
         "kind": 5,
         "importPath": "Backend.settings",
         "description": "Backend.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n          'NAME': tmpPostgres.path[1:],\n        'USER': tmpPostgres.username,\n        'PASSWORD': tmpPostgres.password,\n        'HOST': tmpPostgres.hostname,\n        'PORT': 5432,\n    }\n}",
         "detail": "Backend.settings",
         "documentation": {}
     },
@@ -1509,87 +1350,6 @@
         "description": "Backend.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "Backend.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0001_initial",
-        "description": "account.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomUser',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
-        "detail": "account.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0002_otherclient",
-        "description": "account.migrations.0002_otherclient",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='OtherClient',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('firstName', models.CharField(max_length=256)),",
-        "detail": "account.migrations.0002_otherclient",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0003_alter_otherclient_email",
-        "description": "account.migrations.0003_alter_otherclient_email",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0002_otherclient'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='otherclient',\n            name='email',\n            field=models.CharField(max_length=256),\n        ),",
-        "detail": "account.migrations.0003_alter_otherclient_email",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0004_alter_customuser_role",
-        "description": "account.migrations.0004_alter_customuser_role",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0003_alter_otherclient_email'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='customuser',\n            name='role',\n            field=models.CharField(choices=[('CLIENT', 'client'), ('Agent', 'Agent'), ('ADMIN', 'admin')], default='', max_length=32),\n        ),",
-        "detail": "account.migrations.0004_alter_customuser_role",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0005_remove_customuser_firstname_and_more",
-        "description": "account.migrations.0005_remove_customuser_firstname_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0004_alter_customuser_role'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='customuser',\n            name='firstName',\n        ),\n        migrations.RemoveField(",
-        "detail": "account.migrations.0005_remove_customuser_firstname_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0006_superadmin_alter_customuser_role",
-        "description": "account.migrations.0006_superadmin_alter_customuser_role",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0005_remove_customuser_firstname_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='superuser',\n            fields=[\n            ],\n            options={",
-        "detail": "account.migrations.0006_superadmin_alter_customuser_role",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0007_alter_customuser_role",
-        "description": "account.migrations.0007_alter_customuser_role",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0006_superadmin_alter_customuser_role'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='customuser',\n            name='role',\n            field=models.CharField(choices=[('CLIENT', 'client'), ('AGENT', 'agent'), ('ADMIN', 'admin'), ('SUPERUSER', 'superuser')], default='', max_length=32),\n        ),",
-        "detail": "account.migrations.0007_alter_customuser_role",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0008_customuser_latitude_customuser_longitude",
-        "description": "account.migrations.0008_customuser_latitude_customuser_longitude",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0007_alter_customuser_role'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='customuser',\n            name='latitude',\n            field=models.CharField(default='0.0.0', max_length=255),\n            preserve_default=False,",
-        "detail": "account.migrations.0008_customuser_latitude_customuser_longitude",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "account.migrations.0009_customuser_bonus",
-        "description": "account.migrations.0009_customuser_bonus",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0008_customuser_latitude_customuser_longitude'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='customuser',\n            name='bonus',\n            field=models.IntegerField(blank=True, default=0),\n        ),",
-        "detail": "account.migrations.0009_customuser_bonus",
         "documentation": {}
     },
     {
@@ -2013,33 +1773,6 @@
         "description": "account.views",
         "peekOfCode": "def create_superuser(validated_data):\n    return Superuser.objects.create(\n        is_superuser=True,\n        is_staff=True,\n        **validated_data\n    )\nclass UserRegister(viewsets.ModelViewSet):\n    permission_classes = [AllowAny]\n    serializer_class = UserSerializer\n    queryset = CustomUser.objects.all()",
         "detail": "account.views",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "app.migrations.0001_initial",
-        "description": "app.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('account', '0005_remove_customuser_firstname_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
-        "detail": "app.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "app.migrations.0002_calender_remove_product_agent_id_and_more",
-        "description": "app.migrations.0002_calender_remove_product_agent_id_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0009_customuser_bonus'),\n        ('app', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='calender',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
-        "detail": "app.migrations.0002_calender_remove_product_agent_id_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "app.migrations.0003_alter_subscriptionclient_end_subscribe",
-        "description": "app.migrations.0003_alter_subscriptionclient_end_subscribe",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('app', '0002_calender_remove_product_agent_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='subscriptionclient',\n            name='end_subscribe',\n            field=models.DateField(null=True),\n        ),",
-        "detail": "app.migrations.0003_alter_subscriptionclient_end_subscribe",
         "documentation": {}
     },
     {
